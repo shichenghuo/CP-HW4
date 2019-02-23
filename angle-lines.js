@@ -6,7 +6,7 @@ function setup() {
 function draw() {
   background(255);
 
-  for (var x = ???; x < ???; x = x + ???) {
+  for (var x = 80; x < 400; x = x + 15) {
     line(x, height/2, x+100, height/2-75);
   }
 }
